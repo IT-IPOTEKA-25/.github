@@ -1,3 +1,3 @@
-# .github
+# Documentation
 
 Hello world!
