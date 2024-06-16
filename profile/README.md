@@ -22,15 +22,16 @@ clone our repositories for frontend and backend to new folder-project:
 ```
 git clone https://github.com/IT-IPOTEKA-25/kamchatka-backend.git
 git clone https://github.com/IT-IPOTEKA-25/frontend.git
+git clone https://github.com/IT-IPOTEKA-25/kamchatka-satellite.git
 ```
 
 You will get structure in Explorer/Finder:
 ```
 - folder-project
 -- kamchatka-backend
--- frontent
+-- frontend
 -- kamchatka-satellite
-- docker-compose.yml
+- docker-compose.yml // You should will create this file some later
 ```
 
 ##### How to run
