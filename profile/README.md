@@ -54,5 +54,5 @@ Successfully connected to the database!
 
 #### About us
 
-Tatiana Ian
-Anna Koshkina 
+- Tatiana Ian
+- Anna Koshkina 
