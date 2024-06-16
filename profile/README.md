@@ -35,9 +35,24 @@ You will get structure in Explorer/Finder:
 ```
 
 ##### How to run
-
-
+###### FRONTEND
+For frontend project use docker-compose.yml. This file should be located in the root project-folder
 ```
 docker compose up --build -d 
 ```
-#### About su
+
+###### BACKEND
+Go to the `main` folder which is located inside `kamchatka-backend` and run command using `go`
+```
+go run .
+```
+You will see log:
+```
+Successfully connected to the database!
+2024/06/16 23:04:03 server listening at [::]:50051
+```
+
+#### About us
+
+Tatiana Ian
+Anna Koshkina 
