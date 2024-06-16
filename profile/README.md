@@ -35,6 +35,21 @@ You will get structure in Explorer/Finder:
 ```
 
 ##### How to run
+Create simple docker-compose.yml and put into the root folder.
+`docker-compose.yml`:
+```
+services:
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        app_env: ${APP_ENV}
+    volumes:
+      - ./frontend/src:/frontend/src
+    ports:
+      - "3000:3000"
+```
+
 ###### FRONTEND
 For frontend project use docker-compose.yml. This file should be located in the root project-folder
 ```
